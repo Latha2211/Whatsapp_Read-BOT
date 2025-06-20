@@ -31,8 +31,8 @@ This Python automation script extracts unread messages from WhatsApp Web using S
 pip install selenium pandas
 
 #🔧 Setup Instructions
-## Step 1: Download and Setup ChromeDriver
-## Go to https://chromedriver.chromium.org/downloads
+### Step 1: Download and Setup ChromeDriver
+### Go to https://chromedriver.chromium.org/downloads
 
 Download the version that matches your installed Google Chrome
 
@@ -42,8 +42,8 @@ Extract it and copy the path to chromedriver.exe
 # Step 2: Login to WhatsApp (Only Once)
 Open Chrome manually like this:
 
-## chrome.exe --user-data-dir="C:\path\to\your\chrome\profile"
-## Navigate to: https://web.whatsapp.com
+### chrome.exe --user-data-dir="C:\path\to\your\chrome\profile"
+### Navigate to: https://web.whatsapp.com
 
 Scan the QR code to log in
 
@@ -57,7 +57,7 @@ user_data_path = r"Path\to\Chrome\User Data\Profile"
 
 # ▶️ How to Run the Script
 
-## python whatsapp_unread_extractor.py
+### python whatsapp_unread_extractor.py
 
 
 # The script will:
