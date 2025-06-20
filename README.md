@@ -32,7 +32,7 @@ pip install selenium pandas
 
 #🔧 Setup Instructions
 ## Step 1: Download and Setup ChromeDriver
-### Go to https://chromedriver.chromium.org/downloads
+## Go to https://chromedriver.chromium.org/downloads
 
 Download the version that matches your installed Google Chrome
 
@@ -47,4 +47,23 @@ Open Chrome manually like this:
 
 Scan the QR code to log in
 
-## Close the browser — your login will be saved for future use
+Close the browser — your login will be saved for future use
+
+# Step 3: Update Script Paths
+Edit these two lines in your script to match your system:
+
+chrome_driver_path = r"Path\to\chromedriver.exe"
+user_data_path = r"Path\to\Chrome\User Data\Profile"
+
+# ▶️ How to Run the Script
+
+## python whatsapp_unread_extractor.py
+
+
+# The script will:
+Open WhatsApp Web
+Apply the "Unread" filter
+Go through each unread chat
+Extract message data
+Save everything to messages_with_unread_counts.csv
+
