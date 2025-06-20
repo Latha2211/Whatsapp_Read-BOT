@@ -8,8 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Initialize WebDriver
-chrome_driver_path = r"C:\Users\INC2909\OneDrive - Texila American University\Documents\AI bot\chromedriver\chromedriver-win64\chromedriver.exe"
-user_data_path = r"C:\Users\INC2909\OneDrive - Texila American University\Documents\AI bot\Profile 2"
+chrome_driver_path = r"C:\Users\INC\OneDrive - \Documents\AI bot\chromedriver\chromedriver-win64\chromedriver.exe"
+user_data_path = r"C:\Users\INC\OneDrive - \Documents\AI bot\Profile 2"
 
 chrome_options = Options()
 chrome_options.add_argument(f"user-data-dir={user_data_path}")
