@@ -37,3 +37,14 @@ pip install selenium pandas
 Download the version that matches your installed Google Chrome
 
 Extract it and copy the path to chromedriver.exe
+
+
+# Step 2: Login to WhatsApp (Only Once)
+Open Chrome manually like this:
+
+## chrome.exe --user-data-dir="C:\path\to\your\chrome\profile"
+## Navigate to: https://web.whatsapp.com
+
+Scan the QR code to log in
+
+## Close the browser — your login will be saved for future use
