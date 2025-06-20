@@ -29,3 +29,11 @@ This Python automation script extracts unread messages from WhatsApp Web using S
 ### Python Libraries
 
 pip install selenium pandas
+
+#🔧 Setup Instructions
+## Step 1: Download and Setup ChromeDriver
+### Go to https://chromedriver.chromium.org/downloads
+
+Download the version that matches your installed Google Chrome
+
+Extract it and copy the path to chromedriver.exe
