@@ -1,12 +1,12 @@
 # Whatsapp_Read-BOT
 
-# 📲 WhatsApp Unread Message Extractor – Automation Bot
+#  WhatsApp Unread Message Extractor – Automation Bot
 
 This Python automation script extracts unread messages from WhatsApp Web using Selenium. It works by using a saved Chrome user session to skip QR logins after the first time and filters chats by unread messages using the green bubble count. The script reads each unread chat and saves details like contact name/number, message, timestamp, and unread count into a CSV file.
 
 ---
 
-## ✅ Features
+##  Features
 
 - Automatically opens WhatsApp Web
 - Uses previously logged-in Chrome session (no repeated QR scans)
@@ -20,7 +20,7 @@ This Python automation script extracts unread messages from WhatsApp Web using S
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 - Python 3.x
 - Google Chrome (64-bit)
@@ -30,7 +30,7 @@ This Python automation script extracts unread messages from WhatsApp Web using S
 
 pip install selenium pandas
 
-#🔧 Setup Instructions
+# Setup Instructions
 ### Step 1: Download and Setup ChromeDriver
 ### Go to https://chromedriver.chromium.org/downloads
 
@@ -55,7 +55,7 @@ Edit these two lines in your script to match your system:
 chrome_driver_path = r"Path\to\chromedriver.exe"
 user_data_path = r"Path\to\Chrome\User Data\Profile"
 
-# ▶️ How to Run the Script
+#  How to Run the Script
 
 ### python whatsapp_unread_extractor.py
 
